@@ -1,0 +1,118 @@
+@font-face{
+    font-family: "firamono";
+    src: url("polices/FiraMono-Regular.otf") format("otf");
+}
+
+
+body
+{
+	background-image:url("images/white.jpg");
+    background-repeat: repeat;
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: Arial, serif;
+    text-emphasis: bold;
+}
+
+
+#liseret{
+    float: left;
+    width: 5%;
+    height: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Times New Roman", Verdana, serif;
+    text-align: left;
+}
+
+p{
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    font-style:italic;
+}
+    
+.experience{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.competences{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.formation{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ImageProfil{
+    float: center;
+}
+
+ul{
+    border: 2px solid black;
+    box-shadow: 6px 6px 3px grey;
+}
+
+p{
+    font-size:16px;
+    font-family: "firamono", "Times New Roman", serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:red;
+}
+
+
+@media all and (max-device-width: 720px)<!--largeur de certains smartphones, handheld ne fonctionne que pour opera---> {
+    .experience{
+        float: top;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .competences{
+        float: middle;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .formation{
+        float: bottom;
+        border: 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h2{
+        color: red;
+        font-size:13px;
+    }
+    
+    p{
+        font-size:10px;
+    }
+    
+    ul{
+        font-size:10px;
+    }
+}
